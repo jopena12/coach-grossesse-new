@@ -1,0 +1,47 @@
+/* Styles pour les notifications */
+.app-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    z-index: 1000;
+    overflow: hidden;
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  .notification-header {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  
+  .notification-body {
+    padding: 15px;
+    color: #333;
+  }
+  
+  .notification-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
