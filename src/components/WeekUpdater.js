@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react';
-import { UserContext } from '../../../coach-grossesse-simple/src/contexts/UserContext';
+import { UserContext } from '..//contexts/UserContext';
 
 function WeekUpdater() {
   const { userData, updateUserInfo } = useContext(UserContext);
