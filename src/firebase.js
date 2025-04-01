@@ -6,12 +6,13 @@ import { getMessaging } from "firebase/messaging";
 
 // Configuration Firebase - remplacez ces valeurs par celles de votre projet
 const firebaseConfig = {
-  apiKey: "xxx-xxx-xxx",
-  authDomain: "votre-projet.firebaseapp.com", 
-  projectId: "votre-projet",
-  storageBucket: "votre-projet.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef"
+  apiKey: "AIzaSyCxKRExmdLUsV7Qeq36BAx2Q4ppD3Akq10",
+  authDomain: "coach-grossesse-new.firebaseapp.com",
+  projectId: "coach-grossesse-new",
+  storageBucket: "coach-grossesse-new.firebasestorage.app",
+  messagingSenderId: "15634382127",
+  appId: "1:15634382127:web:f937a56ab9f609c63ff5da",
+  measurementId: "G-YYFZ0SGD5V"
 };
 
 // Initialiser Firebase
